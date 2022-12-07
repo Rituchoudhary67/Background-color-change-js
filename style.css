@@ -1,14 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-button {
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    padding: 10px;
-    background-color: white;
+.btn, .btn2 ,.btn3 {
+    flex-direction: column;
+    justify-content: center; 
+    background-color: black;
+    text-align: center;
+    margin:120px ;
+    margin-top: 20%;
+    padding: 2%;
     font-size: larger;
-    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+.btn2 {
+    margin-top: 10%;
 }
